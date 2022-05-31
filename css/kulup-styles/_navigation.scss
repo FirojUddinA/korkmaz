@@ -1,0 +1,30 @@
+
+
+.header{
+    .navbar{
+        background-color: $color_white;
+        box-shadow: 0 3px 6px rgba($color: $color_black, $alpha: 0.03);
+        padding: 30px 16px;
+        .navbar-nav{
+            gap: 16px;
+            .nav_btn{
+                height: 45px;
+                font-size: 18px;
+                display: flex;
+                padding: 12px 15px;
+                align-items: center;
+                justify-content: center;
+                box-shadow: none;
+                img{
+                    // width: 30px;
+                    // height: 18px;
+                   
+                }
+                span{
+                    padding-left: 12px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
